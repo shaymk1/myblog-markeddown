@@ -11,15 +11,15 @@ const Blog = () => {
 
 			<div className="pt-[90px] mx-auto text-center h-[700px] ">
 				<div>
-					<h1 className="font-humane uppercase text-7xl text-[#0077b6] underline text-center mb-[50px]">
+					<h1 className="font-humane uppercase text-7xl text-[#0077b6] underline text-center mb-[50px] tracking-widest">
 						Archived Posts
 					</h1>
 				</div>
 				<div>
 					<ul className="list-disc">
-						<li>
+						<li className="text-slate-500">
 							<Link href="posts/BeingStillness">
-								<a className="visited:text-[#0077b6] underline hover:bg-[#a2d2ff] first-of-type:ml-6 list-disc">
+								<a className="visited:text-[#0077b6] underline hover:bg-[#a2d2ff] first-of-type:ml-6 list-disc text-slate-500 ">
 									Being stillness
 								</a>
 							</Link>
@@ -27,7 +27,7 @@ const Blog = () => {
 
 						<li>
 							<Link href="posts/BeingStillness">
-								<a className="visited:text-[#0077b6] underline hover:bg-[#a2d2ff] first-of-type:ml-6 list-disc">
+								<a className="visited:text-[#0077b6] underline hover:bg-[#a2d2ff] first-of-type:ml-6 list-disc text-slate-500">
 									Being Love
 								</a>
 							</Link>

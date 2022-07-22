@@ -9,7 +9,7 @@ const About = () => {
 			</Head>
 			<div className=" mx-auto text-center pt-[120px] ">
 				<div className="mb-[50px]">
-					<h1 className="font-humane uppercase text-7xl text-[#0077b6] underline">
+					<h1 className="font-humane uppercase text-7xl text-[#0077b6] underline tracking-widest">
 						About
 					</h1>
 				</div>
@@ -26,11 +26,11 @@ const About = () => {
 					</div>
 
 					<div>
-						<p className="text-sm pt-2">Hi, my name is :</p>
+						<p className="text-sm pt-2 text-slate-500">Hi, my name is :</p>
 						<h2 className="text-4xl font-humane text-[#5e548e]  p-2 tracking-widest">
 							Shay Kekae
 						</h2>
-						<p className="p-4 text-xs">
+						<p className="p-4 text-xs text-slate-500">
 							Welcome to my blog, where i share my point of view through the
 							lenses of meditation, art and coding, and anything else in
 							between!
