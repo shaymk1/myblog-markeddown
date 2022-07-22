@@ -14,3 +14,7 @@ body{
 main{
 background:url('/nemaste-1.jpg')
 }
+
+li{
+list-style:list-disc;
+}
