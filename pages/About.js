@@ -19,9 +19,9 @@ const About = () => {
 				</div>
 
 				<div>
-					<p className="text-sm">Hi, my name is :</p>
+					<p className="text-sm pt-2">Hi, my name is :</p>
 					<h2 className="text-4xl font-humane text-[#5e548e]  p-2 tracking-widest">Shay Kekae</h2>
-					<p className="p-4 text-sm">
+					<p className="p-4 text-xs">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
 						doloremque illum, sed corporis eius, voluptatibus blanditiis esse,
 						vero sint placeat dolorem! Aperiam placeat sed et rerum saepe
