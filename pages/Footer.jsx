@@ -9,7 +9,7 @@ const Footer = () => {
 				<meta name="description" value="This is my blog" />
 			</Head>
 
-			<div className=" mx-auto text-center h-[400px] mt-[400px] md:mt-[150px]">
+			<div className=" mx-auto text-center h-[400px] mt-[500px] md:mt-[150px]">
 				<div>
 					<h1 className="font-humane uppercase text-7xl text-[#0077b6] underline text-center mb-[50px] tracking-widest">
 						Contact Me

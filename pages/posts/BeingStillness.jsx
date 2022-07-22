@@ -2,21 +2,19 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
+import { getPost } from "../../lib/posts";
+
 export async function getStaticProps() {
+	console.log("[BeingStillness] getStaticProps()");
+
+	const post = await getPost("being-stillness");
 	return {
-		props: {
-			post: {
-				title: "Being Stillness",
-				body: "",
-				image: "/ocean.jpg",
-				link: "http://www.oriahmountaindreamer.com/",
-			},
-		},
+		props: { post },
 	};
 }
 
 const BeingStillness = ({ post }) => {
-	
+	console.log("[BeingStillness] render:", post);
 	return (
 		<>
 			<Head>
@@ -29,7 +27,7 @@ const BeingStillness = ({ post }) => {
 						{post.title}
 					</h1>
 
-					<h3 className="font-bold text-gray-500">The Invitation by Oriah Mountain Dreamer</h3>
+					<h3 className="font-bold text-gray-500">{post.subtitle}</h3>
 				</div>
 				<div className="flex flex-col md:flex-row ">
 					<div className="text-center justify-center text-slate-500 ">
@@ -58,13 +56,14 @@ const BeingStillness = ({ post }) => {
 						<p className="p-4 text-xs md:text-sm mb-2">
 							It doesn’t interest me who you are or how you came to be here. I
 							want to know if you will stand in the center of the fire with me
-							-- and not shrink back. It doesn’t interest me where or what or “with whom you have studied”. I want to know what sustains you
+							-- and not shrink back. It doesn’t interest me where or what or
+							“with whom you have studied”. I want to know what sustains you
 							from the inside when all else falls away. I want to know if you
 							can be alone with yourself and if you truly like the company you
 							keep - - in the empty moments. .
 						</p>
 						<Link href={post.link}>
-							<a className="px-4 py-2 bg-[#0077b6]  rounded-lg text-white text-center hover:bg-[#1b99dd] mt-4 mb-2">
+							<a className="px-4 py-2 bg-[#0077b6]  rounded-lg text-white text-center hover:bg-[#1b99dd] mt-4 mb-2 ">
 								Learn More
 							</a>
 						</Link>
