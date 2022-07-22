@@ -1,0 +1,22 @@
+top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+
+<div className=" ">
+				<h1 className="font-humane text-7xl tracking-widest  uppercase text-white">
+					welcome To
+					<span className="text-[#4cc9f0] ml-2">stillness</span>
+				</h1>
+			</div>
+
+
+
+cdb4db
+<div className="overflow-hidden object-cover h-96 w-full bg-cover bg-center text-center"></div>
+
+
+<Image
+						src=""
+						alt=""
+						width="1700"
+						height="2000"
+						className="h-96 w-full object-fill py-32 px-20"
+					/>
