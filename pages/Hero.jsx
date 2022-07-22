@@ -17,7 +17,7 @@ const Hero = () => {
 						</p>
 
 						<br />
-						<p className="text-white whitespace-normal">
+						<p className="text-white whitespace-pre-wrap">
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 							Consequuntur nisi assumenda praesentium quibusdam perferendis
 							dolores. Totam, rem. Fugit maiores placeat repellat! Rem, delectus
